@@ -1,11 +1,15 @@
-# Performance | Max Bots
-*short explanation of settings*
+# Performance guide for Fika & Swag + Donuts
+In this guide I will explain how I designed and put into use the new features of ``Performance | Max Bots``
+The idea is that in SPT, bots are by far the thing that costs the most CPU performance, and as such we directly target that. If left to it's own devices, SPT and spawn mods will typically flood the game with a crazy amount of bots. Instead what I aimed to achieve with this is that we will despawn bots that are far away, to make the bots that exist be closer to the player. This gives us more performance while not making the raid feel like a ghost town. 
+
+# Settings Explanation
+*short explanation of the settings under Performance | Max bots*
 
 ``Enforced Spawn Limits`` By iteslf, this setting will prevent ANY spawn above the limit set for the map you're currently on. Except special bots like bosses, followers, etc.
 
 ``Despawn Furthest`` This setting needs to have ``Enforced Spawn Limits`` enabled to work. What it does is instead of outright just blocking spawns, is that it will attempt to de-spawn the bot furthest away from any player. It will never despawn anything but PMCs or SCAVs. Thus leaving bosses, followers, rouges, etc alone.
 
-``(ONLY IN 3.8.1 VERSION) Despawn Minimum Distance`` Bots inside this distance will not be despawned. **IN PRE 3.8.1 version, it will use dynamic AI distance for this instead**
+``Despawn Minimum Distance`` Bots inside this distance will not be despawned. 
 
 ``Max Bots <MAP>`` This is the maximum bots that will be allowed to exist on a map at any time. This is a hard limit and will never be exceeded. (except by specials) This setting will have the highest impact on your framerate. 
 
@@ -41,7 +45,11 @@ Now this map is already fairly performance intensive due to how big and badly op
 This leaves us with 16 bots to play around with, minus whatever specials spawn. If the raids feel a bit empty, it might be that a your cap is low, or a lot of specials spawned this raid. What you can do if you have a fairly low cap like my example of 18, is reduce the upper limit of rouges just a tad to let the rest of the map get a bit more action.
 
 ## MY Settings
-*I could provide configs, but that would break when something updates.*
+*My settings shouldn't be seen as some be all end all.*
+
+Config files can be downloaded here: [Config Releases](https://github.com/DeadLeavez/MISC/releases/tag/Config)
+
+They DO NOT contain configs for the F12 settings. Those still need to be set up manually.
 
 ### Config files
 For swag, my settings look like this. The settings for night time is the same.
@@ -98,6 +106,7 @@ I will only list the important settings.
 ```
 Enforced Spawn Limits = true
 Despawn Furthest = true
+Despawn Minimum Distance = 200
 
 Max Bots Factory = 13
 Max Bots Customs = 21
@@ -125,28 +134,26 @@ Are highly subjective, but I recommend turning both on or you get mayhem. As for
 
 ```
 Use Global Min Distance From Player = true
-
-Factory = 10
 Customs = 50
-Reserve = 25
-Streets = 50
-Woods = 100
-Laboratory = 50
-Shoreline = 35
+Factory = 10
 Ground Zero = 50
 Interchange = 50
+Laboratory = 50
 Lighthouse = 75
+Reserve = 25
+Shoreline = 35
+Streets = 50
+Woods = 100
 
 Use Global Min Distance From Other Bots = true
-
+Customs = 35
 Factory = 15
-Customs = 65
-Reserve = 35
-Streets = 55
-Woods = 75
-Laboratory = 40
-Shoreline = 45
 Ground Zero = 65
 Interchange = 50
+Laboratory = 40
 Lighthouse = 60
+Reserve = 35
+Shoreline = 45
+Streets = 55
+Woods = 75
 ```
