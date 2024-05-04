@@ -3,7 +3,7 @@ In this guide I will explain how I designed and put into use the new features of
 The idea is that in SPT, bots are by far the thing that costs the most CPU performance, and as such we directly target that. If left to it's own devices, SPT and spawn mods will typically flood the game with a crazy amount of bots. Instead what I aimed to achieve with this is that we will despawn bots that are far away, to make the bots that exist be closer to the player. This gives us more performance while not making the raid feel like a ghost town. 
 
 # Settings Explanation
-*short explanation of the settings under Performance | Max bots*
+*Short explanation of the settings under Performance | Max bots*
 
 ``Enforced Spawn Limits`` By iteslf, this setting will prevent ANY spawn above the limit set for the map you're currently on. Except special bots like bosses, followers, etc.
 
