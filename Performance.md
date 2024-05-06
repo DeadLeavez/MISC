@@ -74,8 +74,8 @@ For donuts I have these settings on all 3 live-like. I recommend similiar settin
  ``/BepInEx/Plugins/dvize.Donuts/ScenarioConfig.json``
 ```json
 "PMCBotLimitPresets": {
-    "FactoryBotLimit": 7,
-    "InterchangeBotLimit": 9,
+    "FactoryBotLimit": 5,
+    "InterchangeBotLimit": 8,
     "LaboratoryBotLimit": 8,
     "LighthouseBotLimit": 4,
     "ReserveBotLimit": 6,
@@ -86,7 +86,7 @@ For donuts I have these settings on all 3 live-like. I recommend similiar settin
     "GroundZeroBotLimit": 8
 },
 "SCAVBotLimitPresets": {
-    "FactoryBotLimit": 8,
+    "FactoryBotLimit": 5,
     "InterchangeBotLimit": 8,
     "LaboratoryBotLimit": 9,
     "LighthouseBotLimit": 7,
@@ -110,7 +110,7 @@ Despawn Minimum Distance = 200
 
 Max Bots Factory = 13
 Max Bots Customs = 21
-Max Bots Interchange = 15
+Max Bots Interchange = 19
 Max Bots Reserve = 19
 Max Bots Woods = 22
 Max Bots Shoreline = 18
