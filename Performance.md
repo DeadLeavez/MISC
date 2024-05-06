@@ -57,7 +57,7 @@ For swag, my settings look like this. The settings for night time is the same.
  ``/user/mods/SWAG/config/config.json``
 ```json
 "MaxBotCap": {
-    "factory": 16,
+    "factory": 13,
     "customs": 16,
     "woods": 16,
     "shoreline": 16,
