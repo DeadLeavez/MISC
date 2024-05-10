@@ -50,7 +50,7 @@ Hosting with port forwarding
 
 Hosting on [VPN](#vpn)
 - Client or Host doesn't have ``EscapeFromTarkov.exe`` allowed through their firewall
-- Not bound/forced THEIR OWN IP in F12
+- Not bound/forced THEIR OWN VPN IP in F12
 - Has UPNP enabled (should be disabled)
 - Has Native Sockets enabled (Only enable this AFTER you have ensured everything work. And disable if it doesn't work afterwards.)
 
