@@ -6,11 +6,13 @@
 # Launcher
 
 ### Default server 'SPT-AKI' is not available
+Common Causes:
 You are host
 - Server is not running
 - Launcher is not set to the correct address
 - Server has bad ``\Aki_Data\Server\configs\http.json`` settings. Should always be ``0.0.0.0`` in both IP fields. 
 
+Common Causes:
 You are not host
 - Launcher is not set to the correct address
 - Host has not port forwarded correctly
@@ -20,6 +22,7 @@ Either
 - Trailing ``/``, Make sure the IP in the launcher is ``http://xxx.xxx.xxx.xxx:6969``
 
 ### ERROR A patch in <plugin> FAILED. One or more errors occurred. SUBSEQUENT PATCHES HAVE NOT LOADED, CHECK LOG FOR MORE DETAILS
+Common Causes:
 - Wrong aki version
 - Server has bad ``\Aki_Data\Server\configs\http.json`` settings. Should always be ``0.0.0.0`` in both IP fields. 
 - Bad IP setting in launcher settings. Some routers don't support NAT loopback. If you're on LAN with router. Use Local IP instead of WAN IP. or ``127.0.0.1`` if you're on the same PC.
@@ -27,27 +30,32 @@ Either
 # Game
 
 ### Game doesn't load. Frozen. 
+Common Causes:
 - Bundle Issue (Lots of mods. Try async bundle loader, send cache, or remove bundle mods )
 - Mod issue
 - Bad AKI install
 
 ### Cannot see host menu
+Common Causes:
 - Incorrect installation of Fika. 
 
 ### Cannot see hosted games in the lobby menu
+Common Causes:
 - Connected to the wrong server
 - Missing Fika-server on the server
 
 ### Stuck on Waiting for X players
+Common Causes:
 - Outdated version of fika
 
 ### Unable to connect to the server. Make sure that all ports are open
+Common Causes:
 Hosting with port forwarding
 - Host doesn't have port UDP 25565(default) port forwarded
 - Client or Host doesn't have ``EscapeFromTarkov.exe`` allowed through their firewall
 - Has UPNP enabled/disabled (try changing it)
 
-
+Common Causes:
 Hosting on [VPN](#vpn)
 - Client or Host doesn't have ``EscapeFromTarkov.exe`` allowed through their firewall
 - Not bound/forced THEIR OWN VPN IP in F12
