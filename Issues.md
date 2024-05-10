@@ -34,6 +34,10 @@ Either
 ### Cannot see host menu
 - Incorrect installation of Fika. 
 
+### Cannot see hosted games in the lobby menu
+- Connected to the wrong server
+- Missing Fika-server on the server
+
 ### Stuck on Waiting for X players
 - Outdated version of fika
 
