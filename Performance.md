@@ -1,20 +1,20 @@
 # Performance guide for Fika & Swag + Donuts
 In this guide I will explain how I designed and put into use the new features of ``Performance | Max Bots``
-The idea is that in SPT, bots are by far the thing that costs the most CPU performance, and as such we directly target that. If left to it's own devices, SPT and spawn mods will typically flood the game with a crazy amount of bots. Instead what I aimed to achieve with this is that we will despawn bots that are far away, to make the bots that exist be closer to the player. This gives us more performance while not making the raid feel like a ghost town. 
+The idea is that in SPT, bots are by far the thing that costs the most CPU performance, and as such we directly target that. If left to it's own devices, SPT and spawn mods will typically flood the game with a crazy amount of bots. Instead what I aimed to achieve with this is that we will de-spawn bots that are far away, to make the bots that exist be closer to the player. This gives us more performance while not making the raid feel like a ghost town. 
 
 # Settings Explanation
 *Short explanation of the settings under Performance | Max bots*
 
-``Enforced Spawn Limits`` By iteslf, this setting will prevent ANY spawn above the limit set for the map you're currently on. Except special bots like bosses, followers, etc.
+``Enforced Spawn Limits`` By itself, this setting will prevent ANY spawn above the limit set for the map you're currently on. Except special bots like bosses, followers, etc.
 
 ``Despawn Furthest`` This setting needs to have ``Enforced Spawn Limits`` enabled to work. What it does is instead of outright just blocking spawns, is that it will attempt to de-spawn the bot furthest away from any player. It will never despawn anything but PMCs or SCAVs. Thus leaving bosses, followers, rouges, etc alone.
 
-``Despawn Minimum Distance`` Bots inside this distance will not be despawned. 
+``Despawn Minimum Distance`` Bots inside this distance will not be de-spawned. 
 
 ``Max Bots <MAP>`` This is the maximum bots that will be allowed to exist on a map at any time. This is a hard limit and will never be exceeded. (except by specials) This setting will have the highest impact on your framerate. 
 
 # How to use for best effect 
-*If you get even better results let me know, this isnt the be all end all configuration*
+*If you get even better results let me know, this isn't the be all end all configuration*
 
 The goal is to have interesting raids, that feel alive while preserving as much fps as possible. To achieve this, we need a mod that spawns bots around you. (As of time of writing, the only mod that I know does this is Donuts + SWAG, but these settings would technically work with any mod that uses the correct method of dynamically spawning bots.)
 
@@ -40,7 +40,7 @@ This map has a lot of specials so we need to keep that in mind when setting the 
 
 I have concluded through testing that my PC can handle about 18 bots without the performance dropping much.
 
-Now this map is already fairly performance intensive due to how big and badly optimized it is. So I would like to have decent FPS. So I don't want there to be more than 18 bots spawned on the map. So I set the Fika Max Bots to 18. Then I want to leave donuts some room, so I set the SWAG Cap for lighthouse to 16. That leaves 2 bot slots for donuts to use (it will also still despawn further bots, so 2 goes further than you might think)
+Now this map is already fairly performance intensive due to how big and badly optimized it is. So I would like to have decent FPS. So I don't want there to be more than 18 bots spawned on the map. So I set the Fika Max Bots to 18. Then I want to leave donuts some room, so I set the SWAG Cap for lighthouse to 16. That leaves 2 bot slots for donuts to use (it will also still de-spawn further bots, so 2 goes further than you might think)
 
 This leaves us with 16 bots to play around with, minus whatever specials spawn. If the raids feel a bit empty, it might be that a your cap is low, or a lot of specials spawned this raid. What you can do if you have a fairly low cap like my example of 18, is reduce the upper limit of rouges just a tad to let the rest of the map get a bit more action.
 
@@ -69,7 +69,7 @@ For swag, my settings look like this. The settings for night time is the same.
     "groundzero": 16
 }
 ```
-For donuts I have these settings on all 3 live-like. I recommend similiar settings on the presets you use.
+For donuts I have these settings on all 3 live-like. I recommend similar settings on the presets you use.
 
  ``/BepInEx/Plugins/dvize.Donuts/ScenarioConfig.json``
 ```json
