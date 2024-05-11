@@ -6,14 +6,14 @@
 # Launcher
 
 ### Default server 'SPT-AKI' is not available
-Common Causes:
 You are host
+Common Causes:
 - Server is not running
 - Launcher is not set to the correct address
 - Server has bad ``\Aki_Data\Server\configs\http.json`` settings. Should always be ``0.0.0.0`` in both IP fields. 
 
-Common Causes:
 You are not host
+Common Causes:
 - Launcher is not set to the correct address
 - Host has not port forwarded correctly
 - Host is behind [CGNAT](#CGNAT)
@@ -26,6 +26,7 @@ Common Causes:
 - Wrong aki version
 - Server has bad ``\Aki_Data\Server\configs\http.json`` settings. Should always be ``0.0.0.0`` in both IP fields. 
 - Bad IP setting in launcher settings. Some routers don't support NAT loopback. If you're on LAN with router. Use Local IP instead of WAN IP. or ``127.0.0.1`` if you're on the same PC.
+- Server is missing fika-server mod.
 
 # Game
 
