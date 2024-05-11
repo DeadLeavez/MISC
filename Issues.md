@@ -49,6 +49,11 @@ Common Causes:
 Common Causes:
 - Outdated version of fika
 
+### Server started on port 0
+Common Causes:
+- Trying to bind wrong IP.
+- Port is already in use by something else.
+
 ### Unable to connect to the server. Make sure that all ports are open
 Common Causes:
 Hosting with port forwarding
