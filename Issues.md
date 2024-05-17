@@ -60,6 +60,7 @@ Hosting with port forwarding
 - Host doesn't have port UDP 25565(default) port forwarded
 - Client or Host doesn't have ``EscapeFromTarkov.exe`` allowed through their firewall
 - Has UPNP enabled/disabled (try changing it)
+- Host has bad force/bind settings. Should be empty.
 
 Common Causes:
 Hosting on [VPN](#vpn)
