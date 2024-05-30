@@ -27,4 +27,4 @@ Locate ``ProjectZomboid64.json`` in the folder above and open it in a text edito
 
 Again, we want to find the Xmx line, but it's a bit different in this file. Under ``vmargs`` you will find a line that looks like this ``"-Xmx3072m",``.
 
-You want to replace the line with ``"-Xmx8G",`` and on the line below you want to add ``"-Xms6G",``
+You want to replace the line with ``"-Xmx8G",`` and then make a new line and add ``"-Xms6G",``
