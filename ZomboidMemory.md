@@ -28,3 +28,15 @@ Locate ``ProjectZomboid64.json`` in the folder above and open it in a text edito
 Again, we want to find the Xmx line, but it's a bit different in this file. Under ``vmargs`` you will find a line that looks like this ``"-Xmx3072m",``.
 
 You want to replace the line with ``"-Xmx8G",`` and then make a new line and add ``"-Xms6G",``
+
+Afterwards, it should look like this
+
+```json
+	"vmArgs": [
+		"-Djava.awt.headless=true",
+		"-Xmx8G",
+		"-Xms6G",
+		"-Dzomboid.steam=1",
+		"-Dzomboid.znetlog=1",
+        ...
+```
