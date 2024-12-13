@@ -96,4 +96,6 @@ To start powershell in the folder. ``CTRL`` + ``SHIFT`` + ``Right Click`` in the
 
 Then run the command above. **(NEVER RUN POWERSHELL COMMANDS FROM SOMEONE YOU DON'T TRUST, OR HAVE SOMEONE YOU TRUST VETTING THE SCRIPT.)**
 
-Then copy each line to the ``spawnregions.lua`` file. (The script adds commas at the end of each line, remember to remove the last one.)
+Then copy each line to the ``spawnregions.lua`` file. 
+
+**(The script adds commas at the end of each line, remember to remove the last one)**
