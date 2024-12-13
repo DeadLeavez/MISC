@@ -65,14 +65,14 @@ You want to add the following line to the ``spawnregions.lua``
 so with the two mods previously mentioned, it should look like this.
 ```lua
 function SpawnRegions()
-	return {
-		{ name = "Muldraugh, KY", file = "media/maps/Muldraugh, KY/spawnpoints.lua" },
-		{ name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
-		{ name = "Rosewood, KY", file = "media/maps/Rosewood, KY/spawnpoints.lua" },
-		{ name = "West Point, KY", file = "media/maps/West Point, KY/spawnpoints.lua" },
+    return {
+        { name = "Muldraugh, KY", file = "media/maps/Muldraugh, KY/spawnpoints.lua" },
+        { name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
+        { name = "Rosewood, KY", file = "media/maps/Rosewood, KY/spawnpoints.lua" },
+        { name = "West Point, KY", file = "media/maps/West Point, KY/spawnpoints.lua" },
         { name = "BedfordFalls", file = "media/maps/BedfordFalls/spawnpoints.lua" },
         { name = "Otr", file = "media/maps/Otr/spawnpoints.lua" }
-	}
+    }
 end
 ```
 <sub>Note the traling commas.</sub>
