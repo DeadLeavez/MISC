@@ -87,7 +87,7 @@ If you'd like a headstart, I have my own ``spawnregions.lua`` uploaded. You can 
 I have also written a powershell script to automatically generate the lines.
 
 ```ps
-get-childitem -Filter spawnpoints.lua -Recurse | %{$_.DirectoryName.Split("\")[-1]} | % { Write-Host "{ name = `""`b$_"`", file = `"media/maps/"$_"/spawnpoints.lua`" }," }
+get-childitem -Filter spawnpoints.lua -Recurse | %{$_.DirectoryName.Split("\")[-1]} | % { Write-Host "`t{ name = `""`b$_"`", file = `"media/maps/"$_"/spawnpoints.lua`" }," }
 ```
 
 You want to run this in the ``..\steamapps\workshop\content\108600`` folder.
