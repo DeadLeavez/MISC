@@ -82,3 +82,18 @@ That is it. You now have spawn-points for BedfordFalls and Over the river.
 If you'd like a headstart, I have my own ``spawnregions.lua`` uploaded. You can use it as a base and add/remove whatever you need. You can find it below.
 
 [spawnregions.lua](assets/servertest_spawnregions.lua)
+
+## powershell script
+I have also written a powershell script to automatically generate the lines.
+
+```ps
+get-childitem -Filter spawnpoints.lua -Recurse | %{$_.DirectoryName.Split("\")[-1]} | % { Write-Host "{ name = `""`b$_"`", file = `"media/maps/"$_"/spawnpoints.lua`" }," }
+```
+
+You want to run this in the ``..\steamapps\workshop\content\108600`` folder.
+
+To start powershell in the folder. ``CTRL`` + ``SHIFT`` + ``Right Click`` in the folder and press ``Open PowerShell window here``
+
+Then run the command above. **(NEVER RUN POWERSHELL COMMANDS FROM SOMEONE YOU DON'T TRUST, OR HAVE SOMEONE YOU TRUST VETTING THE SCRIPT.)**
+
+Then copy each line to the ``spawnregions.lua`` file. (The script adds commas at the end of each line, remember to remove the last one.)
