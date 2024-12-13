@@ -77,6 +77,8 @@ end
 ```
 <sub>Note the traling commas.</sub>
 
-That is it. You now have spawn-points for BedfordFalls and Over the river. If you'd like a headstart, I have my own ``spawnregions.lua`` uploaded. You can use it as a base and add/remove whatever you need. You can find it below.
+That is it. You now have spawn-points for BedfordFalls and Over the river. 
+
+If you'd like a headstart, I have my own ``spawnregions.lua`` uploaded. You can use it as a base and add/remove whatever you need. You can find it below.
 
 [spawnregions.lua](assets/servertest_spawnregions.lua)
