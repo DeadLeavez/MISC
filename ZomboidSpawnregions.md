@@ -21,12 +21,12 @@ The last one is the one we're interested in. Open it in a text editor of your ch
 By default it should look something along the lines of this
 ```lua
 function SpawnRegions()
-	return {
-		{ name = "Muldraugh, KY", file = "media/maps/Muldraugh, KY/spawnpoints.lua" },
-		{ name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
-		{ name = "Rosewood, KY", file = "media/maps/Rosewood, KY/spawnpoints.lua" },
-		{ name = "West Point, KY", file = "media/maps/West Point, KY/spawnpoints.lua" }
-	}
+    return {
+        { name = "Muldraugh, KY", file = "media/maps/Muldraugh, KY/spawnpoints.lua" },
+        { name = "Riverside, KY", file = "media/maps/Riverside, KY/spawnpoints.lua" },
+        { name = "Rosewood, KY", file = "media/maps/Rosewood, KY/spawnpoints.lua" },
+        { name = "West Point, KY", file = "media/maps/West Point, KY/spawnpoints.lua" }
+    }
 end
 
 ```
