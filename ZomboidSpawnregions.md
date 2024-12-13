@@ -52,6 +52,8 @@ This should give you an output like following. (If it doesn't look like this, en
 
 I have highlighted the information that is the most important.
 
+Keep in mind that this will show ALL maps you have subscribed to. I don't know what happens if you add spawn-points from maps that aren't enabled, but I'm fairly sure its fine.
+
 ## Adding to spawnregions.lua
 Now with that search we should have everything we need to add spawn points to your server config. I will in the following example use BedfordFalls and Over the river (Otr) as examples. But this will work with any modded map that HAS spawn-points provided. (note that some maps simply don't, and there isn't much to do about that unless you want to add them yourself. Which is way beyond the scope of this tutorial.)
 
