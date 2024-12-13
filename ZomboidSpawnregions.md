@@ -12,7 +12,7 @@ You will find this file, along with the rest of the server files for your config
 <sub>Note, that this is not your documents folder, but the actual profile folder.</sub>
 
 For each server configuration setup the following three files should exist.
-```html
+```
 <configuration_name>.ini
 <configuration_name>_SandboxVars.lua
 <configuration_name>_spawnregions.lua
